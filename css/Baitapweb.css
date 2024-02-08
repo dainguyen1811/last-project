@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  padding: auto;
+}
+#slide {
+  width: 1140px;
+  height: 400px;
+  margin: 0 auto;
+  position: relative;
+}
+#slide #hinh {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#slide .fa-chevron-circle-left {
+  position: absolute;
+  top: 45%;
+  left: 20px;
+  font-size: 30px;
+  color: black;
+}
+#slide .fa-chevron-circle-right {
+  position: absolute;
+  top: 45%;
+  right: 20px;
+  font-size: 30px;
+  color: black;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+a {
+  text-decoration:none;
+  color:white;
+}
+
+
+.box-1 {
+  position: relative;
+  width: 100%;
+  height: 240px; /* Điều chỉnh độ cao theo nhu cầu của bạn */
+  overflow: hidden;
+}
+.title {
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  color:rgb(140, 249, 249);
+}
+
+.bt1 {
+  padding: 5px;
+  margin: 5px;
+  /* border: 1px solid rgb(211, 211, 211); */
+}
+.bt2 {
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid rgb(211, 211, 211);
+}
+.bt3 {
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid rgb(211, 211, 211);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+
+.bg-box {
+  width: 100%;
+  height: 100%;
+  background-image: url("https://images.pexels.com/photos/1421903/pexels-photo-1421903.jpeg?auto=compress&cs=tinysrgb&w=600  "); /* Thay đổi đường dẫn đến ảnh của bạn */
+  background-size: cover;
+  background-position: center;
+  filter: blur(5px); /* Hiệu ứng làm mờ */
+}
+.title-list {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.background-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: filter 0.5s ease;
+}
+
+.blur {
+  filter: blur(5px); /* Làm mờ ảnh */
+}
